@@ -114,7 +114,6 @@ header{
 }
 
 #info-container{
-    font-size: 36px;
     font-weight: 900;
 }
 
@@ -202,6 +201,21 @@ margin-bottom: 30px;
 
 #btn-criar-evento{
     margin-top: 15px;
+}
+
+#items-list{
+    list-style: none;
+    padding-left: 0;
+}
+
+#items-list li{
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+#items-list li p{
+    font-size: 18px;
 }
 
 footer
