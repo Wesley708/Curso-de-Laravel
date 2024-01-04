@@ -218,6 +218,10 @@ margin-bottom: 30px;
     font-size: 18px;
 }
 
+.date{
+    display: flex;
+}
+
 footer
 {
     text-align: center;

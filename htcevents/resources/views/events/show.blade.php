@@ -21,6 +21,10 @@
                         <li><ion-icon name="play-outline"></ion-icon><p>{{ $item }}</p></li>
                     @endforeach
                 </ul>
+                <h3>Data do evento</h3>
+                <div class="date">
+                    <ion-icon name="calendar-outline"></ion-icon><p class="card-date">{{ date('d/m/Y', strtotime($event->date)) }}</p>
+                </div>
             </div>
             <div id="description-container" class="col-md-12">
                 <h3>Sobre o evento:</h3>
